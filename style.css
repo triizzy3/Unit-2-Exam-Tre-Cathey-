@@ -1,0 +1,71 @@
+h2{
+    color:rgba(4, 165, 52, 0.815);
+    font-family: 'Lucida Sans';
+    font-style: italic;        
+}
+h1{
+    background-color: cadetblue;
+    color:crimson;
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(117, 69, 5);
+}
+table{
+    border-color: rgb(105, 123, 148);
+    width:400px;
+    height: 200px;
+    background-color: black;
+}
+th{
+    color:blueviolet
+}
+td{
+    color: blueviolet;
+}
+.one{
+    background-color: rgb(0, 0, 0) ;
+}
+#onee{
+    color: aquamarine;
+    background-color:purple ;
+}
+.two{
+    color: rgb(255, 93, 214);
+    background-color:yellowgreen ;
+}
+.three{
+    color: chartreuse;
+    background-color:blue ;
+}
+.four{
+    color: coral;
+    background-color:rgb(139, 20, 20);
+}
+.five{
+    color: rgb(227, 255, 67);
+    background-color:palevioletred ;
+}
+div :hover{
+    animation-name: play;
+    animation-duration: 3s;
+   
+}
+@keyframes play{
+from{color:red;}
+to{color: skyblue;}
+}
+header{
+    color: red;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+}
+img{
+ margin-left: auto;
+ margin-right: auto;
+    width:50%;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
