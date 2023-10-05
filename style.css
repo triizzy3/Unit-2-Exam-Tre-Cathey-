@@ -3,7 +3,7 @@ h2{
     font-family: 'Lucida Sans';
     font-style: italic;        
 }
-h1{
+.hh{
     background-color: cadetblue;
     color:crimson;
     font-family:'Courier New', Courier, monospace;
@@ -46,10 +46,14 @@ td{
     color: rgb(227, 255, 67);
     background-color:palevioletred ;
 }
-div :hover{
+h1:hover{
     animation-name: play;
     animation-duration: 3s;
    
+}
+.gg:hover{
+    animation-name: play;
+    animation-duration: 3s;
 }
 @keyframes play{
 from{color:red;}
@@ -68,4 +72,8 @@ img{
     display: block;
     margin-top: auto;
     margin-bottom: auto;
+}
+nav{
+    height:100px
+    background-color: black
 }
